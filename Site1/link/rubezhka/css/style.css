@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:900px){
+    .logo {
+        height: 19px;
+        width: 30px;
+    }
+    li{
+
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    .navbar{
+        margin-left: -1100px;
+    }
+    .aboutchar{
+        margin-left: 100px;
+
+    }
+    header{
+       width: 100%;
+        height: 400px;
+    }
+}
+    @media screen and (max-width: 770px) { 
+   
+   
+        .raw1{
+            flex-direction: column;
+        
+        }
+        .container{
+            flex-direction: column;
+            padding-top: 50px;
+            text-align: center;
+        }
+        .aboutchar{
+            flex-direction: column;
+        }
+    }
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    color: white;
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #1C1B21 92.19%), url("../pics/Rectangle 6.png");
+    
+}
+
+.navbar {
+    margin-top: 10px;
+    height: 60px ;
+    margin-left: 560px;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+}
+.ishte{
+    margin-top: 10px;
+    display: flex;
+    width: 25%;
+    justify-content: space-around; 
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    padding-right: 50px;
+}
+
+.logo {
+    height: 39px;
+    width: 40px;
+}
+
+.inst {
+    height: 24px;
+    width: 24px;
+}
+
+
+.block_text {
+    width: 700px;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: white;
+    margin-top: 260px;
+}
+
+
+
+p {
+    width: 700px;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: white;
+    margin-top: 260px;
+}
+.single-lady{
+    width: 270px;
+    height: 50px;
+    margin-top: 390px;
+    margin-left: 405px ;
+    display: flex;
+
+}
+.baby-lady{
+    margin-top: 40px;
+    margin-left: 400px ;
+   display: flex;
+   width: 655px;
+   height: 75px;
+   text-align: center;
+}
+.news{
+    position: relative;
+    z-index: 1;
+    margin: -150px 0px 0px 0px;
+}
+.container{
+margin-top: 0px;
+display: flex;
+margin: 50px;
+margin-left: 600px;
+align-items: center;
+width: 40%;
+justify-content: space-around;
+
+}
+.bl1{
+width: 350px;
+height: 300px;
+left: 1165px;
+top: 851px;
+
+background: url(bl1_1.png);
+border-radius: 20px 0px;
+padding-right: 50px;
+}
+.bl2{
+    width: 350px;
+    height: 300px;
+    left: 1165px;
+    top: 851px;
+    
+    background: url(bl1_2.png);
+    border-radius: 20px 0px;
+    padding-right: 50px;
+}
+.bl3{
+    width: 350px;
+    height: 300px;
+    left: 1165px;
+    top: 851px;
+    
+    background: url(bl1_3.png);
+    border-radius: 20px 0px;
+    padding-right: 50px;
+}
+.backcl{
+    background-color: #1C1B21;
+}
+.bl1txt{
+    position: relative;
+    z-index: 1;
+    margin-top: -90px;
+
+    width: 88%;
+    padding: 20px;
+    background-color: rgba(122, 102, 204, 0.7);
+    border-radius: 20px 0px;
+    min-height: 50px;
+    max-height: 100px;
+    overflow: auto;
+}
+.bl2txt{
+    position: relative;
+    margin-top: -90px;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 89%;
+    padding: 20px;
+    background-color: rgba(122, 102, 204, 0.7);
+    border-radius: 20px 0px;
+    min-height: 50px;
+    max-height: 100px;
+    overflow: auto;
+}
+.bl3txt{
+    position: relative;
+    margin-top: -90px;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 89%;
+    padding: 20px;
+    background-color: rgba(122, 102, 204, 0.7);
+    border-radius: 20px 0px;
+    min-height: 50px;
+    max-height: 100px;
+    overflow: auto;
+}
+.btxt{
+    color: aliceblue;
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.aboutchar{
+    max-width: 1140px;
+    min-width: 200px;
+    min-height: 200px;
+    max-height: 594px;
+    margin-top: 200px;
+    margin-left: 400px;
+   
+}
+.raw{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+}
+.raw1{
+    display: flex;
+
+}
+.log11{
+    background-color: rgb(5, 78, 78);
+    height: 31;
+    width: 64;
+    margin-top: 20px;
+    
+}
+.stst{
+    position: relative;
+    margin-top: -200px;
+    width: 540px;
+    height: 312px;
+}
+.txtlog{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 48px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    
+}
+.ptxt{
+    position: relative;
+    font-family: 'Poppins';
+    width: 540px;
+    height: 312px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    text-align: left;
+    margin-top: -200;
+}
+.picc{
+    background-color: black;
+    display: flex;
+}
+.pp{
+ 
+    opacity: 1;
+    border-radius: 30px 0px;
+}
+.stt{
+    display: flex;
+}
+.suret{
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 445px;
+    flex: 0 1 445px;
+    min-height: 466px;
+    max-width: 445px;
+    margin: 0 auto;
+    margin-left: 125px;
+}
+.dots{
+    height: 30px;
+    width: 30px;
+    background: #7A66CC;
+    border-radius: 10px 0px;
+}
+.dott{
+    position: relative;
+    width: 330px;
+    padding-left: -550px;
+}
+.dottt{
+    position: relative;
+    width: 330px;
+    padding-left: -550px;
+    margin-top: 20px;
+}
+.dod{
+    display: flex;
+    margin-bottom: 20px;
+}
+.ttxtt{
+    display: flex;
+    margin-left: 35px;
+    margin-top: -30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+}
+.borderr{
+    width: 1100px;	height: 313px; 
+    margin-top: -398px;
+    background: #1C1B21;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px 0px;
+   }
+.imgg{
+    margin-top: 153px;
+    margin-left: 660px;
+    width: 370px;
+    height: 483px;
+    border-radius: 30px 0px;
+    background: url("../pics/Rectangle19.png");
+}
+.tb{
+    font-family: 'Poppins';
+    font-style: normal;
+    width: 520px;
+    height: 136px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 80px;
+    text-align: left;
+    font-weight: 400;
+}
+.bord{
+    opacity: 0.6;
+    border: 1px solid #FFFFFF;
+    width: 520px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.popu{
+    position: relative;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #7A66CC;
+  
+
+}
+.kartinki{
+    width: 1110px;
+    height: 500px;
+    margin-top: 300px;
+    display: flex;
+}
+.lv{
+    border-radius: 30px 0px;
+    width: 255px;
+    height: 500px;
+}
+.vrlv{
+    border-radius: 30px 0px;
+    margin-left: 30px;
+}
+.pr{
+    border-radius: 30px 0px;
+    margin-left: 30px; 
+    width: 255px;
+    height: 500px;
+}
+.niz{
+   margin-top: 265px;
+   margin-left: -825px;
+   width: 540px;
+   height: 235px; 
+}
+.txtnkr{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #7A66CC;
+    margin-top: -135px;
+    margin-left: -900px;
+}
+.endlogo{
+    margin-top: 180px;
+    display: flex;
+    margin-left: 440px;
+}
+.logoo{
+margin-left: 8px;
+width: 60px;
+height: 60px;
+}
+.nadpis{
+margin-left: 20px;
+margin-top: 20px;
+}
+.ttt{
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+padding-right: -300px;
+padding-left: -300px;
+color: #FFFFFF;
+}
+.preend{
+    margin-top: 150px;
+    margin-left: -100px;
+    height: 60px;
+    width: -300px;
+}
+.endf{
+
+    margin-left: 400px;
+    
+    display: flex;
+    margin-top: 27px;
+
+}
+.otst{
+    padding-right: 30px;
+}
+.rew{
+    margin-top: 75px;
+    margin-left: 405px;
+}
+
+
+
